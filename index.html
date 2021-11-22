@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>«Карлов Алексей» | Портфолио</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="css/fontello/fontello.css">
+  <link rel="stylesheet" href="css/fontello/fontello-embedded.css">
+  <link rel="stylesheet" href="css/main.min.css">
+  <!-- <link rel="stylesheet" href="css/outline.css"> -->
+</head>
+
+<body>
+
+  <section class="main-page">
+    <div class="container">
+      <div class="row">
+        <header class="main-header">
+          <div class="header-caption">
+            <div class="header-caption__avatar header-caption__avatar_shadow">
+              <img width="140" height="140" src="img/avatar.png" alt="photo-small">
+            </div>
+            <h1>Карлов Алексей</h1>
+            <hr class="header-caption__line">
+            <p class="header-caption__subtitle">Верстка сайтов на HTML и CSS <br> HTML5 CCS3 JS Node.js</p>
+          </div>
+        </header>
+      </div>
+    </div>
+    <a class="main-page__scroll" href="#works">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <div>
+        <span class="main-page__arr main-page__arr_unu"></span>
+        <span class="main-page__arr main-page__arr_doi"></span>
+        <span class="main-page__arr main-page__arr_trei"></span>
+      </div>
+    </a>
+
+  </section>
+
+  <section class="page-works" id="works">
+    <div class="container">
+      <div class="page-works-brush">
+        <h2 class="page-works__caption">Мои работы</h2>
+      </div>
+      <div class="filter-block">
+        <ul class="filter-block__block">
+          <li class="filter-block__element">
+            <span class="filter-block__button filter" data-filter="all">ВСЕ</span>
+          </li>
+          <li class="filter-block__element">
+            <span class="filter-block__button filter" data-filter=".tutorial">УЧЕБНЫЕ</span>
+          </li>
+          <li class="filter-block__element">
+            <span class="filter-block__button filter" data-filter=".backend">БЭКЕНД-РАЗРАБОТКА</span>
+          </li>
+
+        </ul>
+      </div>
+      <ul class="works row" id="portfolio-projects">
+        <li class="works__item mix tutorial">
+          <a class="link works__link cd-modal-trigger" data-work='work-1' href="#">
+            <img width="366" height="351" src="img/work1.png" alt="Preview">
+            <div class="overlay">
+              <div class="overlay-caption">
+                <h3 class="overlay__title">«Tajam Agency»</h3>
+                <p class="overlay__subtitle">Смотреть описание</p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="works__item mix tutorial">
+          <a class="link works__link cd-modal-trigger" data-work='work-2' href="#">
+            <img width="366" height="351" src="img/work2.png" alt="Preview">
+            <div class="overlay">
+              <div class="overlay-caption">
+                <h3 class="overlay__title">«BUKEE: The Book»</h3>
+                <p class="overlay__subtitle">Смотреть описание</p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="works__item mix tutorial">
+          <a class="link works__link cd-modal-trigger" data-work='work-5' href="#">
+            <img width="366" height="351" src="img/work5.png" alt="Preview">
+            <div class="overlay">
+              <div class="overlay-caption">
+                <h3 class="overlay__title">Сайт портфолио</h3>
+                <p class="overlay__subtitle">Смотреть описание</p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="works__item mix backend">
+          <a class="link works__link cd-modal-trigger" data-work='work-7' href="#">
+            <img width="366" height="351" src="img/work7.png" alt="Preview">
+            <div class="overlay">
+              <div class="overlay-caption">
+                <h3 class="overlay__title">«Taskdone.fun»</h3>
+                <p class="overlay__subtitle">Смотреть описание</p>
+              </div>
+            </div>
+          </a>
+        </li>
+
+      </ul>
+      <div class="control-pagination">
+        <div class="mixitup-page-list"></div>
+        <div class="mixitup-page-stats"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-footer">
+    <div class="container">
+      <ul class="main-footer row">
+        <li>
+          <b>Алексей Карлов</b>
+          <h2>Верстка сайтов на HTML и CSS
+            <br>HTML5 CCS3 JS Node.js
+          </h2>
+        </li>
+        <li class="footer-social">
+          <h2>Мои профили в социальный сетях</h2>
+          <div class="socials">
+            <a href="https://vk.com/all_kas" class="socials__item" target="_blank">
+              <i class="icon-vk"></i>
+            </a>
+            <a href="https://instagram.com/all_kas/" class="socials__item" target="_blank">
+              <i class="icon-instagram"></i>
+            </a>
+            <a href="https://github.com/allkas" class="socials__item" target="_blank">
+              <i class="icon-github"></i>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section class="page-popups">
+    <div class="cd-modal">
+      <div class="modal-content"></div>
+      <a href="#" class="modal-close">Close</a>
+    </div>
+    <div class="cd-transition-layer">
+      <div class="bg-layer"></div>
+    </div>
+  </section>
+
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
