@@ -56,6 +56,6 @@
 }
  
 .icon-mail:before { content: '\e800'; } /* '' */
-.icon-fb:before { content: '\f09a'; } /* '' */
+.icon-github:before { content: '\f09a'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
 .icon-vk:before { content: '\f189'; } /* '' */
